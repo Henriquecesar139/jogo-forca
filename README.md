@@ -8,6 +8,7 @@
 <li>Arquivo com as palavras (palavras.py) </li>
 <li>Arquivo com as funções (funcoes.py) </li>
 
+<p>Tentei comentar ao máximo para melhor entendimento </p>
 
 <img src='imagem.png' alt="imagem do jogo" width="60%">
 

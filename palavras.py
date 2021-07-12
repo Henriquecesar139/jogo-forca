@@ -11,6 +11,10 @@ groselha = ['g', 'r', 'o', 's', 'e', 'l', 'h', 'a']
 melao = ['m', 'e', 'l', 'a', 'o']
 pequi = ['p', 'e', 'q', 'u', 'i']
 pitomba = ['p', 'i', 't', 'o', 'm', 'b', 'a']
+noz = ['n', 'o', 'z']
+caju = ['c' ,'a', 'j', 'u']
+jenipapo = ['j', 'e', 'n', 'i', 'p', 'a', 'p', 'o']
+cambuci = ['c', 'a', 'm', 'b', 'u', 'c', 'i']
 
 #Lista com todas as palavras
 frutas = [
@@ -24,5 +28,8 @@ frutas = [
     groselha,
     melao,
     pequi,
-    pitomba
+    pitomba,
+    noz,
+    caju,
+    jenipapo
 ]

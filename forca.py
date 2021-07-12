@@ -19,7 +19,7 @@ else:
 os.system(limpar)
 
 #Variável que gera um número aleatório
-num = randint(0, 10)
+num = randint(0, len(frutas))
 
 #Palavra escolhida com base no número aleatório
 palavra = frutas[num]
@@ -54,10 +54,9 @@ while True:
 	#Se a letra estiver presente na palavra
 	if letra in palavra:
 		posicao = palavra.index(letra)
-		#Substituição de carcatere na lista 'numletras'
 		numletras.pop(posicao)
 		numletras.insert(posicao, letra)
-		
+
 		#As forcas são desenhadas com base na variável erros (parte desnecessária [Apenas por estética])
 		os.system(limpar)
 		if erros == 0:

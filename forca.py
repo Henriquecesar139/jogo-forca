@@ -53,9 +53,10 @@ while True:
 	
 	#Se a letra estiver presente na palavra
 	if letra in palavra:
-		posicao = palavra.index(letra)
-		numletras.pop(posicao)
-		numletras.insert(posicao, letra)
+		for i in range(len(palavra)):
+			if palavra[i] == letra:
+				numletras.pop(i)
+				numletras.insert(i, letra)
 
 		#As forcas são desenhadas com base na variável erros (parte desnecessária [Apenas por estética])
 		os.system(limpar)
@@ -76,6 +77,7 @@ while True:
 			os.system(limpar)
 			vitoria()
 			print(f'A palavra era {palavra}')
+			(exit())
 
 	#caso não esteja
 	else:

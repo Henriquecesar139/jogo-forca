@@ -76,7 +76,15 @@ while True:
 			os.system(limpar)
 			vitoria()
 			print(f'A palavra era {palavra}')
-			(exit())
+			print('\n Jogar novamente ? \n [ 1 ] --> Sim \n [ 2 ] --> Não')
+
+			op = int (input("--> "))
+
+			if op == 1:
+				os.system('python3 forca.py')
+			else:
+				(exit())
+
 
 	#caso não esteja
 	else:

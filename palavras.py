@@ -31,5 +31,6 @@ frutas = [
     pitomba,
     noz,
     caju,
-    jenipapo
+    jenipapo,
+    cambuci
 ]

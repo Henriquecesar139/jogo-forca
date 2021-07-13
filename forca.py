@@ -74,7 +74,6 @@ while True:
 			erro5()
 		#Caso a lista numletras seja igual a lista palavras
 		if numletras == palavra:
-			os.system(limpar)
 			vitoria()
 			print(f'A palavra era {palavra}')
 			(exit())
@@ -99,4 +98,5 @@ while True:
 		elif erros == 6:
 			erro6()
 			print(f'A palavra era {palavra}')	
+			(exit())
 			

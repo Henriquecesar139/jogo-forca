@@ -26,6 +26,7 @@
 
 <mark>As letras devem ser colocadas sem acentos durante o jogo</mark>
 
+<ul>
 <li>bacaba</li>
 <li>cacau</li>
 <li>carambola</li>
@@ -61,6 +62,6 @@
 <li>cambuci</li>
 <li>sapoti</li>
 <li>ameixa</li>
-
+</ul>
 
 </span>

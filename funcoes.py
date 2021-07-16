@@ -99,6 +99,7 @@ ____|____    / \ Você Perdeu! :(
         ''')
 
 def vitoria():
+    os.system(limpar)
     print('''
     ( ) 
    \ | /

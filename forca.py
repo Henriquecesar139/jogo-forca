@@ -8,6 +8,7 @@ from random import randint
 from palavras import *
 from funcoes import *
 import os
+from time import sleep
 
 #Devido a mudança de comando no cmd do windows e no terminal do linux
 #Adaptei o comando para o cmd e terminal
@@ -76,6 +77,7 @@ while True:
 		if numletras == palavra:
 			vitoria()
 			print(f'A palavra era {palavra}')
+			sleep(8)
 			(exit())
 
 	#caso não esteja
@@ -98,5 +100,6 @@ while True:
 		elif erros == 6:
 			erro6()
 			print(f'A palavra era {palavra}')	
+			sleep(8)
 			(exit())
 			

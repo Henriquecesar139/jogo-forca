@@ -20,4 +20,4 @@
 
 <img src='imagem.png' alt="imagem do jogo" width="80%">
 
-<mark>As letras devem ser colocadas sem acentos durante o jogo</mark>
+<b>As letras devem ser colocadas sem acentos durante o jogo</b>

@@ -12,9 +12,13 @@ else:
 #Funções que desenha o titulo e as forcas
 
 def titulo():
-    print('##############')
-    print('    forca')
-    print('##############')
+    print('''
+ _ ____ ____ ____    ___  ____    ____ ____ ____ ____ ____ 
+ | |  | | __ |  |    |  \ |__|    |___ |  | |__/ |    |__| 
+_| |__| |__] |__|    |__/ |  |    |    |__| |  \ |___ |  | 
+                                                          
+    
+    ''')
 
 def forca():
     print('''

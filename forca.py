@@ -19,11 +19,25 @@ else:
 
 os.system(limpar)
 
-#Variável que gera um número aleatório
-num = randint(0, len(frutas))
+#Menu de tema
 
-#Palavra escolhida com base no número aleatório
-palavra = frutas[num]
+print(' [ 1 ] --> Frutas \n [ 2 ] --> Animais')
+
+tema = int (input('--> '))
+os.system(limpar)
+
+#palavra definida com base no tema
+if tema == 1:
+	num = randint(0, len(frutas))
+	palavra = frutas[num]
+elif tema == 2:
+	num = randint(0, len(animais))
+	palavra = animais[num]
+
+else:
+	print('erro')
+	(exit())
+
 
 #Número de letras presentes na palavra
 num = len(palavra)
@@ -36,7 +50,7 @@ for c in range(num):
 #Variável dos erros
 erros = 0
 
-#Funções do arquivo funcoes.py
+#Interface
 titulo()
 
 forca()

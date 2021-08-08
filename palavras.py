@@ -1,5 +1,6 @@
 #palavras usadas no jogo da forca
 
+#frutas
 maca = ['m', 'a', 'c', 'a'] 
 banana = ['b', 'a', 'n', 'a', 'n', 'a']
 abacaxi = ['a', 'b', 'a', 'c', 'a', 'x', 'i']
@@ -36,7 +37,25 @@ framboesa = ['f', 'r', 'a', 'm', 'b', 'o', 'e', 's', 'a']
 kiwi = ['k', 'i', 'w', 'i']
 laranja = ['l', 'a', 'r', 'a', 'n', 'j', 'a']
 
-#Lista com todas as palavras
+
+#Animais
+cachorro = ['c', 'a', 'c', 'h', 'o', 'r', 'r', 'o']
+gato = ['g', 'a', 't', 'o']
+peixe = ['p', 'e', 'i', 'x', 'e']
+zebra = ['z', 'e', 'b', 'r', 'a']
+camaleao = ['l' ,'e', 'a', 'o']
+leao = ['l', 'e', 'a', 'o']
+lobo = ['l', 'o', 'b', 'o']
+avestruz = ['a', 'v', 'e', 's', 't', 'r', 'u', 'z']
+cavalo = ['c', 'a', 'v', 'a', 'l', 'o']
+camelo = ['c', 'a', 'm', 'e', 'l', 'o']
+tubarao = ['t', 'u', 'b', 'a', 'r', 'a', 'o']
+boi = ['b', 'o', 'i']
+tigre = ['t', 'i', 'g', 'r', 'e']
+macaco = ['m', 'a', 'c', 'a', 'c', 'o']
+cobra = ['c', 'o', 'b', 'r', 'a']
+
+#Lista com as frutas
 frutas = [
     bacaba,
     cacau,
@@ -73,4 +92,24 @@ frutas = [
     cambuci,
     sapoti,
     ameixa,
+]
+
+#Lista com os animais
+animais = [
+    cachorro, 
+    gato,
+    peixe,
+    zebra,
+    camaleao,
+    leao,
+    lobo,
+    avestruz,
+    cavalo,
+    camelo,
+    tubarao,
+    boi,
+    tigre,
+    macaco,
+    cobra
+
 ]

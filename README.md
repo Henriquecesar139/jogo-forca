@@ -1,7 +1,5 @@
 <h1> Jogo da forca feito em python </h1>
 
-<h2>O jogo tem como tema: Frutas </h2>
-
 <p>O Jogo da forca foi dividido em 3 arquivos<p>
 
 <ul>

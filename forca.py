@@ -21,7 +21,7 @@ os.system(limpar)
 
 #Menu de tema
 
-print(' [ 1 ] --> Frutas \n [ 2 ] --> Animais')
+print(' [ 1 ] --> Frutas \n [ 2 ] --> Animais \n [ 3 ] --> Países')
 
 tema = int (input('--> '))
 os.system(limpar)
@@ -33,11 +33,12 @@ if tema == 1:
 elif tema == 2:
 	num = randint(0, len(animais))
 	palavra = animais[num]
-
+elif tema == 3:
+	num = randint(0, len(paises))
+	palavra = paises[num]	
 else:
 	print('erro')
 	(exit())
-
 
 #Número de letras presentes na palavra
 num = len(palavra)
@@ -61,8 +62,8 @@ letras_usadas = []
 #Loop que acontece o jogo
 while True:
 	#Algumas informações
-	print(f'Letras descobertas {numletras}')
-	print(f'letras usadas: {letras_usadas}')
+	print(f'Letras descobertas {" ".join(numletras)}')
+	print(f'letras descartadas: {", ".join(letras_usadas)}')
 	letra = input ('-->  ')
 	#Caso a letra esteja na palavra
 	
@@ -113,7 +114,7 @@ while True:
 			erro5()
 		elif erros == 6:
 			erro6()
-			print(f'A palavra era {palavra}')	
+			print(f'A palavra era {"".join(palavra)}')	
 			sleep(8)
 			(exit())
 			

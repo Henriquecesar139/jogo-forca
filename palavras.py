@@ -26,11 +26,9 @@ pequi = ['p', 'e', 'q', 'u', 'i']
 pitomba = ['p', 'i', 't', 'o', 'm', 'b', 'a']
 noz = ['n', 'o', 'z']
 caju = ['c' ,'a', 'j', 'u']
-jenipapo = ['j', 'e', 'n', 'i', 'p', 'a', 'p', 'o']
 cambuci = ['c', 'a', 'm', 'b', 'u', 'c', 'i']
 sapoti = ['s', 'a', 'p', 'o', 't', 'i']
 ameixa = ['a', 'm', 'e', 'i', 'x', 'a']
-bacaba = ['b', 'a', 'c', 'a', 'b', 'a']
 cacau = ['c', 'a' ,'c', 'a', 'u']
 carambola = ['c', 'a', 'r', 'a', 'm', 'b', 'o', 'l', 'a']
 framboesa = ['f', 'r', 'a', 'm', 'b', 'o', 'e', 's', 'a']
@@ -54,10 +52,32 @@ boi = ['b', 'o', 'i']
 tigre = ['t', 'i', 'g', 'r', 'e']
 macaco = ['m', 'a', 'c', 'a', 'c', 'o']
 cobra = ['c', 'o', 'b', 'r', 'a']
+lagarto = ['l', 'a', 'g', 'a', 'r', 't', 'o']
+cabra = ['c', 'a', 'b', 'r', 'a']
+vaca = ['v', 'a', 'c', 'a']
+
+#paises
+brasil = ['b', 'r', 'a', 's', 'i', 'l']
+venezuela = ['v', 'e', 'n', 'e', 'z', 'u', 'e', 'l', 'a']
+paraguai = ['p', 'a', 'r', 'a', 'g', 'u', 'a', 'i']
+uruguai = ['u', 'r', 'u', 'g', 'u', 'a', 'i']
+chile = ['c', 'h', 'i', 'l', 'e']
+argentina = ['a', 'r', 'g', 'e', 'n', 't', 'i', 'n', 'a']
+peru = ['p', 'e', 'r', 'u']
+haiti = ['h', 'a', 'i', 't', 'i']
+portugal = ['p', 'o', 'r', 't', 'u', 'g', 'a', 'l']
+japao = ['j', 'a', 'p', 'a', 'o']
+china = ['c', 'h', 'i', 'n', 'a']
+alemanha = ['a', 'l', 'e', 'm', 'a', 'n', 'h', 'a']
+russia = ['r', 'u', 's', 's', 'i', 'a']
+polonia = ['p', 'o', 'l', 'o', 'n', 'i', 'a']
+mexico = ['m', 'e', 'x', 'i', 'c', 'o']
+canada = ['c', 'a', 'n', 'a', 'd', 'a']
+franca = ['f', 'r', 'a', 'n', 'c', 'a']
+
 
 #Lista com as frutas
 frutas = [
-    bacaba,
     cacau,
     carambola,
     framboesa,
@@ -88,7 +108,6 @@ frutas = [
     pitomba,
     noz,
     caju,
-    jenipapo,
     cambuci,
     sapoti,
     ameixa,
@@ -110,6 +129,29 @@ animais = [
     boi,
     tigre,
     macaco,
-    cobra
+    cobra,
+    lagarto,
+    cabra,
+    vaca
 
+]
+
+paises = [
+    brasil,
+    venezuela,
+    paraguai,
+    uruguai,
+    chile,
+    argentina,
+    peru,
+    haiti,
+    portugal,
+    japao,
+    china,
+    alemanha,
+    russia,
+    polonia,
+    mexico,
+    canada,
+    franca
 ]

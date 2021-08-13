@@ -55,6 +55,9 @@ cobra = ['c', 'o', 'b', 'r', 'a']
 lagarto = ['l', 'a', 'g', 'a', 'r', 't', 'o']
 cabra = ['c', 'a', 'b', 'r', 'a']
 vaca = ['v', 'a', 'c', 'a']
+ganso = ['g', 'a', 'n', 's', 'o']
+corvo = ['c', 'o', 'r', 'v', 'o']
+rato = ['r', 'a', 't', 'o']
 
 #paises
 brasil = ['b', 'r', 'a', 's', 'i', 'l']
@@ -74,7 +77,8 @@ polonia = ['p', 'o', 'l', 'o', 'n', 'i', 'a']
 mexico = ['m', 'e', 'x', 'i', 'c', 'o']
 canada = ['c', 'a', 'n', 'a', 'd', 'a']
 franca = ['f', 'r', 'a', 'n', 'c', 'a']
-
+bolivia = ['b', 'o', 'l', 'i', 'v', 'i', 'a']
+colombia = ['c', 'o', 'l', 'o', 'm', 'b', 'i', 'a']
 
 #Lista com as frutas
 frutas = [
@@ -132,7 +136,10 @@ animais = [
     cobra,
     lagarto,
     cabra,
-    vaca
+    vaca,
+    ganso,
+    corvo,
+    rato
 
 ]
 
@@ -153,5 +160,7 @@ paises = [
     polonia,
     mexico,
     canada,
-    franca
+    franca,
+    bolivia,
+    colombia
 ]

@@ -9,16 +9,19 @@ if os.name == 'nt':
 else:
 	limpar = 'clear'
 
+ciano = '\033[1;36m'
+reset = '\033[0;00m'
+
 #Funções que desenha o titulo e as forcas
 
 def titulo():
-    print('''
+    print(ciano + '''
  _ ____ ____ ____    ___  ____    ____ ____ ____ ____ ____ 
  | |  | | __ |  |    |  \ |__|    |___ |  | |__/ |    |__| 
 _| |__| |__] |__|    |__/ |  |    |    |__| |  \ |___ |  | 
                                                           
     
-    ''')
+    ''' + reset)
 
 def forca():
     print('''

@@ -63,8 +63,11 @@ letras_usadas = []
 while True:
 	#Algumas informações
 	print(f'Letras descobertas {" ".join(numletras)}')
-	print(f'letras descartadas: {", ".join(letras_usadas)}')
-	letra = input ('-->  ')
+	print(f'letras descartadas: {" ".join(letras_usadas)}')
+	try:
+		letra = input ('-->  ')
+	except:
+		(exit())
 	#Caso a letra esteja na palavra
 	
 	#Se a letra estiver presente na palavra
@@ -91,7 +94,7 @@ while True:
 		#Caso a lista numletras seja igual a lista palavras
 		if numletras == palavra:
 			vitoria()
-			print(f'A palavra era {palavra}')
+			print(f'A palavra era {"".join(palavra)}')
 			sleep(8)
 			(exit())
 

@@ -1,7 +1,6 @@
-###############
-#Henrique César
-###############
-
+#==============#
+#Henrique César#
+#==============#
 
 #Importações
 from random import randint
@@ -20,10 +19,10 @@ else:
 os.system(limpar)
 
 #Menu de tema
-
+titulo()
 print(' [ 1 ] --> Frutas \n [ 2 ] --> Animais \n [ 3 ] --> Países')
 
-tema = int (input('--> '))
+tema = int (input(' --> '))
 os.system(limpar)
 
 #palavra definida com base no tema
@@ -46,7 +45,7 @@ num = len(palavra)
 #Cria uma lista do tamanho da lista da palavra
 numletras = []
 for c in range(num):
-	numletras.append('-')
+	numletras.append('_')
 
 #Variável dos erros
 erros = 0

@@ -22,7 +22,7 @@ os.system(limpar)
 titulo()
 print(' [ 1 ] --> Frutas \n [ 2 ] --> Animais \n [ 3 ] --> Países')
 
-tema = int (input(' --> '))
+tema = int (input(' ---> '))
 os.system(limpar)
 
 #palavra definida com base no tema
@@ -34,9 +34,9 @@ elif tema == 2:
 	palavra = animais[num]
 elif tema == 3:
 	num = randint(0, len(paises))
-	palavra = paises[num]	
+	palavra = paises[num]
 else:
-	print('erro')
+	print('Digite um número válido')
 	(exit())
 
 #Número de letras presentes na palavra
@@ -63,11 +63,7 @@ while True:
 	#Algumas informações
 	print(f'Letras descobertas {" ".join(numletras)}')
 	print(f'letras descartadas: {" ".join(letras_usadas)}')
-	try:
-		letra = input ('-->  ')
-	except:
-		(exit())
-	#Caso a letra esteja na palavra
+	letra = input ('-->  ')
 	
 	#Se a letra estiver presente na palavra
 	if letra in palavra:
@@ -76,7 +72,7 @@ while True:
 				numletras.pop(i)
 				numletras.insert(i, letra)
 
-		#As forcas são desenhadas com base na variável erros (parte desnecessária [Apenas por estética])
+		#As forcas são desenhadas com base na variável erros
 		os.system(limpar)
 		if erros == 0:
 			forca()

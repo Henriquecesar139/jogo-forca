@@ -27,13 +27,13 @@ os.system(limpar)
 
 #palavra definida com base no tema
 if tema == 1:
-	num = randint(0, len(frutas))
+	num = randint(0, len(frutas) -1)
 	palavra = frutas[num]
 elif tema == 2:
-	num = randint(0, len(animais))
+	num = randint(0, len(animais) -1)
 	palavra = animais[num]
 elif tema == 3:
-	num = randint(0, len(paises))
+	num = randint(0, len(paises) -1)
 	palavra = paises[num]
 else:
 	print('Digite um número válido')
@@ -57,62 +57,43 @@ forca()
 
 #Lista com as letras descartadas
 letras_usadas = []
-
+possiveis = 'abcdefghijklmnopqrstuvwxyz'
 #Loop que acontece o jogo
 while True:
 	#Algumas informações
 	print(f'Letras descobertas {" ".join(numletras)}')
 	print(f'letras descartadas: {" ".join(letras_usadas)}')
 	letra = input ('-->  ')
-	
-	#Se a letra estiver presente na palavra
-	if letra in palavra:
-		for i in range(len(palavra)):
-			if palavra[i] == letra:
-				numletras.pop(i)
-				numletras.insert(i, letra)
+	if letra not in possiveis:
+			forcas(erros)
+	elif letra in possiveis:
+		#Se a letra estiver presente na palavra
+		if letra in palavra:
+			for i in range(len(palavra)):
+				if palavra[i] == letra:
+					numletras.pop(i)
+					numletras.insert(i, letra)
 
-		#As forcas são desenhadas com base na variável erros
-		os.system(limpar)
-		if erros == 0:
-			forca()
-		if erros == 1:
-			erro1()
-		if erros == 2:
-			erro2()
-		if erros == 3:
-			erro3()
-		if erros == 4:
-			erro4()
-		if erros == 5:
-			erro5()
-		#Caso a lista numletras seja igual a lista palavras
-		if numletras == palavra:
-			vitoria()
-			print(f'A palavra era {"".join(palavra)}')
-			sleep(8)
-			(exit())
-
-	#caso não esteja
-	else:
-		#Adiciona um valor a variável erros
-		erros = erros + 1
-		#Adiciona a letra a lista de letras descartadas
-		letras_usadas.append(letra)
-		#Desenha o personagem na forca quando o usuário erra
-		if erros == 1:
-			erro1()
-		elif erros == 2:
-			erro2()
-		elif erros == 3:
-			erro3()
-		elif erros == 4:
-			erro4()
-		elif erros == 5:
-			erro5()
-		elif erros == 6:
-			erro6()
-			print(f'A palavra era {"".join(palavra)}')	
-			sleep(8)
-			(exit())
+			#As forcas são desenhadas com base na variável erros
 			
+			#Caso a lista numletras seja igual a lista palavras
+			if numletras == palavra:
+				vitoria()
+				print(f'A palavra era {"".join(palavra)}')
+				sleep(8)
+				(exit())
+
+		#caso não esteja
+		else:
+			#Adiciona um valor a variável erros
+			erros = erros + 1
+			#Adiciona a letra a lista de letras descartadas
+			letras_usadas.append(letra)
+			#Desenha o personagem na forca quando o usuário erra
+			forcas(erros)
+			if erros == 6:
+				forcas
+				print(f'A palavra era {"".join(palavra)}')	
+				sleep(8)
+				(exit())
+					

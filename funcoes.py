@@ -36,6 +36,7 @@ ____|____
 
 def erro1():
     os.system(limpar)
+    titulo()
     print('''
     ___________
     |         |
@@ -47,6 +48,7 @@ ____|____
 
 def erro2():
     os.system(limpar)
+    titulo()
     print('''
 
     ___________
@@ -59,6 +61,7 @@ ____|____
 
 def erro3():
     os.system(limpar)
+    titulo()
     print('''
 
     ___________
@@ -71,6 +74,7 @@ ____|____
 
 def erro4():
     os.system(limpar)
+    titulo()
     print('''
 
     ___________
@@ -83,6 +87,7 @@ ____|____
 
 def erro5():
     os.system(limpar)
+    titulo()
     print('''
 
     ___________
@@ -95,6 +100,7 @@ ____|____      \
 
 def erro6():
     os.system(limpar)
+    titulo()
     print('''
 
     ___________
@@ -107,6 +113,7 @@ ____|____    / \ Você Perdeu! :(
 
 def vitoria():
     os.system(limpar)
+    titulo()
     print('''
     ( ) 
    \ | /

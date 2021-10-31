@@ -14,6 +14,20 @@ reset = '\033[0;00m'
 
 #Funções que desenha o titulo e as forcas
 
+def forcas (erros):
+    if erros == 0:
+        forca()
+    elif erros == 1:
+        erro1()
+    elif erros == 2:
+        erro2()
+    elif erros == 3:
+        erro3()
+    elif erros == 4:
+        erro4()
+    elif erros == 5:
+        erro5()
+
 def titulo():
     print(ciano + '''
  _ ____ ____ ____    ___  ____    ____ ____ ____ ____ ____ 
@@ -35,8 +49,6 @@ ____|____
     ''')
 
 def erro1():
-    os.system(limpar)
-    titulo()
     print('''
     ___________
     |         |
@@ -47,8 +59,6 @@ ____|____
         ''')
 
 def erro2():
-    os.system(limpar)
-    titulo()
     print('''
 
     ___________
@@ -60,8 +70,6 @@ ____|____
         ''')
 
 def erro3():
-    os.system(limpar)
-    titulo()
     print('''
 
     ___________
@@ -73,8 +81,6 @@ ____|____
         ''')
 
 def erro4():
-    os.system(limpar)
-    titulo()
     print('''
 
     ___________
@@ -86,8 +92,6 @@ ____|____
         ''')
 
 def erro5():
-    os.system(limpar)
-    titulo()
     print('''
 
     ___________
@@ -100,7 +104,6 @@ ____|____      \
 
 def erro6():
     os.system(limpar)
-    titulo()
     print('''
 
     ___________
@@ -121,3 +124,5 @@ def vitoria():
     / \ 
         Você venceu!!!
     ''')
+
+char = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']

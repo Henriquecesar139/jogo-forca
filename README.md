@@ -16,6 +16,6 @@
 
 <br>
 
-<img src='docs/imagem.png' alt="imagem do jogo" width="80%">
+<img src='imagem.png' alt="imagem do jogo" width="80%">
 
 <b>As letras devem ser colocadas sem acentos durante o jogo</b>

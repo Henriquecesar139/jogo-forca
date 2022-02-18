@@ -22,10 +22,10 @@ os.system(limpar)
 
 #Menu de tema
 titulo()
-print(' [ 1 ] --> Frutas \n [ 2 ] --> Animais \n [ 3 ] --> Países')
+print(f' [ 1 ] --> {vermelho}Frutas{reset} \n [ 2 ] --> {vermelho}Animais{reset} \n [ 3 ] --> {vermelho}Países{reset}')
 
 try:
-	tema = int (input(' [tema]--> '))
+	tema = int (input('\n [tema]--> '))
 except:
 	print('erro')
 	os.system(reinicio)
@@ -66,15 +66,15 @@ letras_usadas = []
 #Loop que acontece o jogo
 while True:
 
-	print(f'Letras descobertas {" ".join(numletras)}')
-	print(f'letras descartadas: {" ".join(letras_usadas)}')
+	print(f'Letras descobertas {verde + " ".join(numletras) + reset}')
+	print(f'letras descartadas: {vermelho + " ".join(letras_usadas) + reset}')
 
-	letra = input ('[digite uma letra]-->  ')
+	letra = input (f'[{magenta}digite uma letra{reset}]-->  ')
 
 	os.system(limpar)
 	titulo()
 
-	if letra not in char:
+	if letra not in char or letra in letras_usadas:
 		forcas(erros)
 
 	else:
@@ -91,7 +91,7 @@ while True:
 			#Caso a lista numletras seja igual a lista palavras, o usuário vence
 			if numletras == palavra:
 				vitoria()
-				print(f'A palavra era {"".join(palavra)}')
+				print(f'A palavra era { magenta + "".join(palavra)}')
 				sleep(10)
 				break
 
@@ -104,7 +104,7 @@ while True:
 			#se erros for igual a 6, o usuário perde
 			if erros == 6:
 				erro6()
-				print(f'A palavra era {"".join(palavra)}')	
+				print(f'A palavra era {magenta + "".join(palavra)}')	
 				sleep(10)
 				break
 		

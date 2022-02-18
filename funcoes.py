@@ -11,6 +11,9 @@ else:
 
 ciano = '\033[1;36m'
 reset = '\033[0;00m'
+vermelho = 	'\033[1;91m'
+verde = '\033[1;92m'
+magenta = '\033[1;35m'
 
 #Funções que desenha o titulo e as forcas
 

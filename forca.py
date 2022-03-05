@@ -35,14 +35,13 @@ os.system(limpar)
 #palavra definida com base no tema
 if tema == 1:
 	num = randint(0, len(frutas) -1)
-	palavra = frutas[num]
+	palavra = frutas[num].split()
 elif tema == 2:
 	num = randint(0, len(animais) -1)
-	palavra = animais[num]
+	palavra = animais[num].split()
 elif tema == 3:
 	num = randint(0, len(paises) -1)
-	palavra = paises[num]
-else:
+	palavra = paises[num].split()
 	os.system(reinicio)
 
 #Número de letras presentes na palavra
@@ -109,4 +108,3 @@ while True:
 				break
 		
 os.system(reinicio)
-			

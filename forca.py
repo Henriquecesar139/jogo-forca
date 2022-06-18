@@ -35,14 +35,13 @@ os.system(limpar)
 #palavra definida com base no tema
 if tema == 1:
 	num = randint(0, len(frutas) -1)
-	palavra = frutas[num].split()
+	palavra = ' '.join(frutas[num]).split()
 elif tema == 2:
 	num = randint(0, len(animais) -1)
-	palavra = animais[num].split()
+	palavra = ' '.join(animais[num]).split()
 elif tema == 3:
 	num = randint(0, len(paises) -1)
-	palavra = paises[num].split()
-	os.system(reinicio)
+	palavra = ' '.join(paises[num]).split()
 
 #Número de letras presentes na palavra
 num = len(palavra)
@@ -64,7 +63,7 @@ letras_usadas = []
 
 #Loop que acontece o jogo
 while True:
-
+	
 	print(f'Letras descobertas {verde + " ".join(numletras) + reset}')
 	print(f'letras descartadas: {vermelho + " ".join(letras_usadas) + reset}')
 

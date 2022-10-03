@@ -1,8 +1,8 @@
 #palavras usadas no jogo da forca
 
 
-#Lista com as frutas
-frutas=[
+#tupla com as frutas
+frutas=(
 'cacau',
 'carambola',
 'framboesa',
@@ -36,10 +36,10 @@ frutas=[
 'cambuci',
 'sapoti',
 'ameixa',
-]
+)
 
-#Lista com os animais
-animais = [
+#tupla com os animais
+animais = (
 'cachorro',
 'gato',
 'peixe',
@@ -62,10 +62,10 @@ animais = [
 'corvo',
 'rato'
 
-]
+)
 
-#lista com os páises
-paises = [
+#tupla com os páises
+paises = (
 'brasil',
 'venezuela',
 'paraguai',
@@ -88,4 +88,13 @@ paises = [
 'ucrania',
 'canada',
 'noruega',
-]
+'suecia',
+'croacia',
+'irlanda',
+'angola',
+'mocambique'
+'senegal',
+'holanda',
+'cuba',
+'palestina'
+)
